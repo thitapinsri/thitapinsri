@@ -151,7 +151,7 @@ main {
     align-items: center;
     border-bottom: 1px solid #d7d7d7;
 }
-#infomation .small-container img {
+#infomation .small-container img.desktop {
     width: 35%;
     margin-right: 16px;
 }
@@ -319,4 +319,3 @@ footer h6 {
     text-decoration: none;
     color: #3e3e3e;
 }
-/* media */

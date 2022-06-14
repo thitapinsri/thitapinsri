@@ -1,0 +1,139 @@
+* {
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 768px) {
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+      width: 100%;
+      height: 64px;
+      background-color: white;
+      position: fixed;
+      z-index: 2;
+      display: inline-flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    /* banner */
+    #banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d7d7d7;
+        padding: 0;
+    }
+
+    #banner img {
+        width: 100%;
+      }
+    
+    #banner .banner-text {
+        max-width: unset;
+        margin-left: 0px;
+        padding: 32px 16px;
+    }
+    
+    #banner .banner-text h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    #banner .banner-text p {
+      margin: 32px 0 24px 0;
+      font-size: 1.75rem;
+    }
+    
+    #banner .banner-text button {
+      background-color: #9a9a9a;
+      font-size: 1.25rem;
+      font-weight: 500;
+      padding: 8px;
+      margin-top: 0;
+    }
+
+    #infomation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      max-width: unset;
+    }
+
+    #infomation .main-container {
+      display: none;
+    }
+
+    #infomation .container {
+      width: 100%;
+    }
+
+    #infomation .small-container {
+      padding: 16px;
+      border-bottom: unset;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    #infomation .small-container img.desktop {
+      display: none;
+    }
+  
+    #infomation .container img.mobile {
+      display: flex;
+      width: 100%;
+    }
+
+    #infomation .text-container {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 32px 16px;
+    
+    }
+
+    #infomation #guest-lecture {
+      background-color: white;
+      border-bottom: 1px solid #d7d7d7;
+    }
+
+    #infomation #guest-lecture .text-container{
+      padding-bottom: 16px;
+    }
+
+    #course {
+      padding: 32px;
+      background-color: white;
+
+    }
+    #course h1 {
+      margin-bottom: 16px;
+    }
+
+    #course .container {
+      display: flex;
+      flex-direction: column;
+
+    }
+    #course .course-container .text-container {
+      padding: 16px 16px 24px 16px;
+      background-color: #d8d8d8;
+    }
+
+    #course .course-container {
+      margin: 0 0 8px 0;
+    }
+
+    #course .text-container h2 {
+      font-size: 1rem;
+    }
+
+    #course img, #course p {
+      display: none;
+    }
+
+}
