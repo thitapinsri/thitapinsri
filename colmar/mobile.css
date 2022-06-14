@@ -1,7 +1,3 @@
-* {
-  border: 1px solid red;
-}
-
 @media screen and (max-width: 768px) {
     #desktop {
         display: none;
@@ -115,6 +111,7 @@
     }
 
     #course .container {
+      width: 100%;
       display: flex;
       flex-direction: column;
 
@@ -135,5 +132,37 @@
     #course img, #course p {
       display: none;
     }
+
+    #thesis {
+      border-top: 1px solid #d7d7d7;
+      padding: 0 ;
+    }
+    #thesis h1 {
+      margin: 32px 0 16px;
+    }
+
+    #thesis .main-container {
+      width: 100%;
+      padding: 0;
+    }
+
+    #thesis .container,
+    #thesis .main-container h1,
+    #thesis .main-container p {
+      display: none;
+    }
+    
+    footer {
+      border: none;
+    }
+
+    .legal {
+      display: none;
+    }
+
+    footer h6 {
+      font-weight: 500;
+    }
+
 
 }
