@@ -31,37 +31,39 @@ body {
     align-items: center;
 }
 
-.logo {
+#desktop .logo {
     height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img {
+#desktop .logo img {
     margin-top: 5px;
 }
 
-.logo h1 {
+#desktop .logo h1 {
     margin: 5px;
     font-weight: 500;
     font-size: 24px;
 }
 
-.logo span {
+#desktop .logo span {
     font-weight: 700;
 }
 
-nav {
+#desktop nav {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-nav a {
+#desktop nav a {
     padding-left: 16px;
     text-decoration: none;
+    color: #3e3e3e;
 }
+
 
 #mobile {
     display: none;
@@ -96,7 +98,7 @@ main {
 
 #banner .banner-text h1 {
     margin: 24px 0;
-    font-size: 3rem;;
+    font-size: 2.8rem;;
     font-weight: bolder;
   }
   
@@ -312,4 +314,9 @@ footer h6 {
     text-decoration: none;
 }
 
+.legal a, .legal a:visited {
+    padding-left: 16px;
+    text-decoration: none;
+    color: #3e3e3e;
+}
 /* media */
