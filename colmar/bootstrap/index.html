@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.cdnfonts.com/css/avenir-next-lt-pro" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="mobile.css" rel="stylesheet" type="text/css" />
+    <style>
+        /* * { border: 1px solid red;} */
+        @media (max-width: 768px) { #desktop { display: none; } }
+        @media (min-width: 768px) { #mobile  { display: none; } }
+    </style>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="mobile.css" rel="stylesheet" type="text/css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Colmar Academy</title>
 </head>
 <body>
-    <header>
-        <div id="desktop">
-            <div class="logo">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <header class="bg-light">
+        <div id="desktop" class="navbar navbar-expand-md justify-content-between px-3">
+            <a class="navbar-brand">
                 <img src="resources\images\ic-logo.svg">
-                <h1><span>COLMAR</span>ACADEMY</h1>
-            </div>
-            <nav>
-                <a href="#">On campus</a>
-                <a href="#">Online</a>
-                <a href="#">For companies</a>
-                <a href="#">Sign in</a>
+                <span class="fw-bold">COLMAR</span>ACADEMY
+            </a>
+            <nav class="navbar-nav">
+                <a class="nav-link active" href="#">On campus</a>
+                <a class="nav-link" href="#">Online</a>
+                <a class="nav-link" href="#">For companies</a>
+                <a class="nav-link" href="#">Sign in</a>
             </nav>
         </div>
-        <div id="mobile" class="navbar">
+
+        <div id="mobile" class="navbar justify-content-around py-3">
                 <a href="#"><img src="resources\images\ic-logo.svg"></a>
                 <a href="#"><img src="resources\images\ic-on-campus.svg"></a>
                 <a href="#"><img src="resources\images\ic-online.svg"></a>
                 <a href="#"><img src="resources\images\ic-login.svg"></a>
         </div>
     </header>
+
     <main>
-        <section id="banner">
+        <section id="banner" class="container">
             <img src="resources\images\banner.jpg">
             <div class="banner-text">
                 <h1>Learn something new everyday</h1>
