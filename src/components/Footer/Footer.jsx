@@ -3,12 +3,12 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <div className='container max-width'>
-        <div class="">
-              <p class="">Thita "Tarn" Pinsri
-              <br/><a href="#">thitapinsri@gmail.com</a></p>
+      <div className='container'>
+        <div className="">
+              <p className="">Thita "Tarn" Pinsri
+              <br/>Bangkok, Thailand</p>
         </div>
-          <p class="">Coded from Scratch with React</p>
+          <p className="">Coded from Scratch with React</p>
       </div>
     </div>
   )
