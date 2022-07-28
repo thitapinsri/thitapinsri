@@ -1,0 +1,26 @@
+.project-card {
+    max-width: 330px;
+    min-height:325px;;
+    background-color: #E2F169;
+    color: black;
+    box-sizing: border-box;
+    box-shadow: rgba(210, 232, 83, 0.464) 0px 5px 15px;
+    height: 100%;
+    padding: 2rem 1rem 1rem;
+    margin: 0 1rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5rem;
+}
+
+.project-card img {
+    width:2rem;
+    margin: 0.5rem 0;
+}
+.project-card h6 {
+}
+
+.project-card span {
+    margin-right: 1rem;;
+}
