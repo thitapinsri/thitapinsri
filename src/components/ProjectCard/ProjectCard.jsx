@@ -3,20 +3,21 @@ import githubLogo from '../../assets/githubLogo.png'
 
 const ProjectCard = ({project}) => {
   return (
-    <div className='project-card' >
+    <a className='project-card' href={project.githubLink}>
+            <img src={project.img}/>
         <div>
-            <a href={project.githubLink}><img src={githubLogo}/></a>
+            {/* <a className="card-hover" href={project.githubLink}><img src={githubLogo}/></a> */}
             <h2>{project.name}</h2>
-            <p>{project.description}</p>
+            <h6>
+                {
+                    project.stacks.map(stack => {
+                        return <span>{stack}</span>
+                    })
+                }
+            </h6>
+            <p className="description">{project.description}</p>
         </div>
-        <h6>
-            {
-                project.stacks.map(stack => {
-                    return <span>{stack}</span>
-                })
-            }
-        </h6>
-    </div>
+    </a>
   )
 }
 

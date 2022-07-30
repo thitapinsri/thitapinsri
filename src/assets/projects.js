@@ -5,15 +5,17 @@ const projects = [
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
         description: 'An exercise tracking website analyzing user\'s workout journey to let them log their activities and share with other users in the community.',
         githubLink: '',
-        link: ''
+        link: '',
+        img: 'src/assets/exercise-tracker.png'
     },
     {
         id: 1,
         name: 'Jamming',
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
-        description: 'A react web application using Spotify API for users to search the Spotify library, create a custom playlist, then save it to their Spotify account.',
+        description: 'A react web application using Spotify API for users to search, create a custom playlist, then save it to their Spotify account.',
         githubLink: 'https://github.com/thitapinsri/jamming',
-        link: 'https://jammingeiei.surge.sh/'
+        link: 'https://jammingeiei.surge.sh/',
+        img: 'src/assets/jamming.png'
     },
     {
         id: 2,
@@ -21,7 +23,8 @@ const projects = [
         stacks: ['JavaScript'],
         description: 'A simple maze-like CLI game using Breadth First Search algorithm.',
         githubLink: '',
-        link: ''
+        link: '',
+        img: 'src/assets/find-your-hat.png'
     },
     {
         id: 3,
@@ -29,7 +32,8 @@ const projects = [
         stacks: ['HTML/CSS', 'Bootstrap', 'ReactJS', 'NodeJS'],
         description: 'A responsive website for new school landing page made with HTML/CSS, and Flexbox.',
         githubLink: 'https://github.com/thitapinsri/colmar',
-        link: ''
+        link: '',
+        img: 'src/assets/colmar.png'
     },
 
 ]

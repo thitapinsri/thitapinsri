@@ -6,6 +6,8 @@
     box-sizing: border-box;
     border: 1.5px solid white;
     color: white;
+    transition: 0.15s;
+
 }
 
 .button:hover {
@@ -13,13 +15,4 @@
     background-color: rgb(226, 241, 105);
     color: black;
     transition: 0.25s;
-}
-
-.button img {
-    width: 1rem;
-    margin-right: 0.5rem;
-}
-
-.button img:hover {
-
 }

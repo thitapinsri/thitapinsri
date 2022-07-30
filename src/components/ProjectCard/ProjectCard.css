@@ -1,26 +1,35 @@
 .project-card {
-    max-width: 330px;
-    min-height:350px;;
-    background-color: #E2F169;
-    color: black;
+    min-width: 300px;
+    max-width: 350px;
+    min-height:460px;
+    background-color: #131213;
     box-sizing: border-box;
-    box-shadow: rgba(210, 232, 83, 0.464) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
     height: 100%;
-    padding: 2rem 1rem 1rem;
-    margin: 0 1rem 3rem 1rem;
+    margin: 0 2rem 3rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    line-height: 1.5rem;
+    /* justify-content: flex-start; */
+    /* line-height: 1.5rem; */
+    text-decoration: none;
+    color: white;
+}
+.project-card div {
+    padding: 1rem;
 }
 
-.project-card img {
+.project-card div img {
+    filter: invert(1);
     width:2rem;
     margin: 0.5rem 0;
 }
-.project-card h6 {
-}
 
 .project-card span {
-    margin-right: 1rem;;
+    margin-right: 1rem;
+}
+
+.project-card:hover {
+    background-color: #E2F169;
+    box-shadow: rgba(210, 232, 83, 0.464) 0px 5px 15px;
+    color: black;
 }

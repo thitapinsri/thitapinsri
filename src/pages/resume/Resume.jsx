@@ -1,16 +1,14 @@
-import './Resume.css'
-import Button from '../../components/Button/Button'
-import resume from "../../assets/mockresume.png"
+import './Resume.css';
+import resume from "../../assets/mockresume.png";
 
 const Resume = () => {
   return (
     <div className="resume">
       <div>
       <h1>Resume</h1>
-      <Button
-        buttonName={'download'}
-        buttonPath={''}
-      />
+      <a href='/src/assets/Thita-resume.pdf' className='button' download>
+        Download Resume
+      </a>
       </div>
       <div>
         <img src={resume} alt="resume" />
