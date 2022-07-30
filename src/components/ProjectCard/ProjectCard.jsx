@@ -3,7 +3,7 @@ import githubLogo from '../../assets/githubLogo.png'
 
 const ProjectCard = ({project}) => {
   return (
-    <div className='project-card'>
+    <div className='project-card' >
         <div>
             <a href={project.githubLink}><img src={githubLogo}/></a>
             <h2>{project.name}</h2>

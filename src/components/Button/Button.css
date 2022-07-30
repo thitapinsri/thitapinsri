@@ -12,4 +12,14 @@
     border: 1.5px solid rgb(226, 241, 105);
     background-color: rgb(226, 241, 105);
     color: black;
+    transition: 0.25s;
+}
+
+.button img {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.button img:hover {
+
 }

@@ -21,12 +21,12 @@ const About = () => {
           <p>{text4}</p>
         </div>
       </div>
-      <h1>Education</h1>
+      {/* <h1>Education</h1>
       <div></div>
       <h1>Certificate & Training</h1>
       <div></div>
       <h1>Achievements</h1>
-      <div></div>
+      <div></div> */}
     </div>
   )
 }

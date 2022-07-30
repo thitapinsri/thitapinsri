@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <div className="navbar">
-        <nav className="max-width">
+        <nav>
           <div className='logo'>
             <Link to="/">Thita Pinsri</Link>
           </div>

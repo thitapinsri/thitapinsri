@@ -1,7 +1,4 @@
 .home {
-    /* max-width: 1280px; */
-    /* margin: 0 auto; */
-    /* background-color: white; */
 }
 /* banner */
 #banner {
@@ -11,9 +8,6 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    /* background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
-    /* background-color: purple; */
     color: white;
     line-height: 1.75rem;
 }
@@ -26,10 +20,11 @@
 
 #banner h1 {
     font-size: 5.5rem;
+    line-height: 5rem;
 }
 
 #banner p {
-    font-size: 1.5rem;;
+    font-size: 1.5rem;
 }
 
 .button-container {
@@ -38,15 +33,13 @@
 
 /* projects */
 #projects {
-    min-height: 100vh;
-    max-width: 800px;   
-    margin: auto;
-    padding-top: 4rem;
+    margin: 3rem auto;
+    padding: 5rem 2rem;  
     box-sizing: border-box;
 }
 
 #projects h1 {
-    margin: 3rem auto;
+    margin-bottom: 5rem;
     font-size: 3rem;
     text-align: center;
 }
@@ -61,25 +54,21 @@
 #skills {
     min-height: 50vh;
     margin: 0 auto;
-    /* max-width: 800px;    */
-    /* padding: 4rem;   */
-    /* text-align: center; */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    background-color: #f5faff;
-    color: black;
+    padding: 5rem 2rem;  
+    /* background-color: #f5faff;
+    color: black; */
 }
 
 #skills h1 {
-    padding: 3rem;
+    
+    margin-bottom: 5rem;
     font-size: 3rem;
     text-align: center;
 }
 
 /* contact */
 #contact {
-    height: 85vh;
+    min-height: 50vh;
     /* max-width: 1280px; */
     margin: 0 auto;
     padding: 4rem;  
@@ -90,8 +79,8 @@
     align-items: center;
     /* background-color: #ba72fe; */
     /* background-color: #9529ff; */
-    background: rgb(149,41,255);
-background: linear-gradient(152deg, rgba(149,41,255,1) 33%, rgba(206,174,238,1) 100%);
+    /* background: rgb(149,41,255); */
+    /* background: linear-gradient(152deg, rgba(149,41,255,1) 33%, rgba(206,174,238,1) 100%); */
     /* color: black; */
 }
 
@@ -101,16 +90,19 @@ background: linear-gradient(152deg, rgba(149,41,255,1) 33%, rgba(206,174,238,1) 
     margin-top: 0.75rem;
     margin-right: 1rem;
     filter: invert(1);
+}
 
+#contact img:hover {
+    filter: invert(0.1);
 }
 
 #contact h1 {
-    font-size: 4rem;;
+    font-size: 4rem;
 }
 
 #contact p {
-    font-size: 1.5rem;
-    line-height: 0.5rem;;
+    font-size: 1.25rem;
+    line-height: 0.5rem;
 }
 
 #contact a {

@@ -1,12 +1,27 @@
 .resume {
-    height: 90vh;
+    min-height: 90vh;
     max-width: 1280px;
     margin: 0 auto;
-    
     padding-top: 4rem;
 }
-.resume h1 {
+
+.resume div {
+    margin: auto;
     padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume h1 {
     box-sizing: border-box;
     font-size: 3rem;;
+}
+
+.resume .button {
+    margin-right: 0;
+}
+
+.resume img {
+    width: 100%;
 }
