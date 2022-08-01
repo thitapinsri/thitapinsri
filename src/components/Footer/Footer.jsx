@@ -11,7 +11,9 @@ const Footer = () => {
               thitapinsri@gmail.com
               </p>
         </div>
-          <p className="">Coded from Scratch with React</p>
+          <p>
+            Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+          </p>
       </div>
     </div>
   )

@@ -7,53 +7,74 @@ import SkillContainer from '../../components/SkillContainer/SkillContainer'
 import githubLogo from '../../assets/githubLogo.png'
 import linkedinLogo from '../../assets/linkedinLogo.png'
 import emailLogo from "../../assets/emailLogo.png"
+import bannerGif from '../../assets/droll-project-launch.gif'
 
 const Home = () => {
   return (
     <div className='home'>
       <section id="banner">
-          <div className='text'> 
+          <div className='text'>
             <h1>Thita Pinsri</h1>
             <p>Bangkok-based full-stack developer<br />
             with an academic background in Film and Advertising</p>
+            <span className='button-container'>
+              <Button buttonName={'Projects'} buttonPath={'/projects'}/>
+              <Button buttonName={'Resume'} buttonPath={'#projects'}/>
+            </span>
           </div>
-          <div className='button-container'>
-            <Button buttonName={'Projects'} buttonPath={'/projects'}/>
-            <Button buttonName={'Resume'} buttonPath={'#projects'}/>
+
+          <div className='image'>
+            <img src={bannerGif} />
           </div>
           
       </section>
 
       <section id="projects"> 
-        <h1>Projects</h1>
+      <div className='project-head'>
+        <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
+      </div>
         <ProjectCardContainer projects={projects} />
-        {/* <Button buttonName={'See More'} buttonPath={'/projects'} className="button"/> */}
+        <Button buttonName={'See More'} buttonPath={'/projects'} className="button"/>
       </section>
 
-      <section id="skills"> 
-        <h1>Skills</h1>
-        <SkillContainer skills={skillList}/>
+      <section id="skills">
+        <div className='img'>
+          <div className='head'>
+            <h1>Skills</h1>
+          </div>
+          <div className='container'>
+          <div >
+            <img src={'src/assets/droll-statistic.gif'} />
+          </div>
+          </div>
+        </div>
+        <div className='sk'>
+          {/* <div className='head'>
+            <h1>Skills</h1>
+          </div> */}
+          <div className='body'>
+            <SkillContainer skills={skillList}/>
+          </div>
+        </div>
       </section>
 
       <section id="contact"> 
-        <div>
+        <div className='info'>
           <h1>Let's get in touch!</h1>
           <p>Thita Pinsri</p>
           <p>Bangkok, Thailand</p>
           <a href="#">
             <img src={emailLogo} />
-            {/* <p>thitapinsri@gmail.com</p> */}
           </a>
-          {/* <br/> */}
           <a href="https://www.linkedin.com/in/thitapinsri/">
             <img src={linkedinLogo}/>
-            {/* <p>/in/thitapinsri</p> */}
           </a>
-          {/* <br/> */}
           <a href="https://github.com/thitapinsri">
             <img src={githubLogo}/>
-            {/* <p>thitapinsri</p> */}
           </a>
+        </div>
+        <div className='img'>
+          <img src={'src/assets/droll-mobility.gif'}/>
         </div>
       </section>
     </div>

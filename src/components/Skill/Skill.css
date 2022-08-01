@@ -1,8 +1,10 @@
 .skill {
-    width: 432px;
+    /* width: 432px; */
+    /* display: inline-flex;
+    flex-wrap: wrap; */
 }
 
 .skill img {
-    width: 3rem;
+    width: 2.5rem;
     margin-right: 1.5rem;
 }

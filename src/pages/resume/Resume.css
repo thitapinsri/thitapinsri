@@ -1,8 +1,8 @@
 .resume {
-    min-height: 90vh;
-    max-width: 1280px;
+    position: relative;
+    top: 72px;
     margin: 0 auto;
-    padding-top: 4rem;
+    background-color: #ffe838;
 }
 
 .resume div {
@@ -15,7 +15,8 @@
 
 .resume h1 {
     box-sizing: border-box;
-    font-size: 3rem;;
+    font-size: 3rem;
+    margin: 3rem 0;
 }
 
 .resume .button {
@@ -24,4 +25,7 @@
 
 .resume img {
     width: 100%;
+    border: 3px solid black;
+    box-sizing: border-box;
+
 }

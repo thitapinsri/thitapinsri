@@ -22,10 +22,10 @@ const skillList = [
                 name: 'Bootstrap',
                 img: 'src/assets/skills/bootstrap.svg'
              },
-            { 
-                name: 'Tailwind CSS',
-                img: 'src/assets/skills/tailwind.svg'
-             },
+            // { 
+            //     name: 'Tailwind CSS',
+            //     img: 'src/assets/skills/tailwind.svg'
+            //  },
         ]
    
     },

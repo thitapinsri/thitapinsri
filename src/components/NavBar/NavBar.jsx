@@ -3,18 +3,24 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <div className="navbar">
-        <nav>
+    <nav className="navbar">
+        {/* <nav> */}
           <div className='logo'>
-            <Link to="/">Thita Pinsri</Link>
+            <Link to="/">THITA PINSRI</Link>
           </div>
           <div className="path-container">
+            <div>
               <Link to="/about">About</Link>
+            </div>
+            <div>
               <Link to="/projects">Projects</Link>
-              <Link to="/resume">Resume</Link>
+            </div>
+            {/* <div> */}
+              <Link to="/resume"><div className='resumelink'>Resume</div></Link>
+            {/* </div> */}
           </div>
-        </nav>
-    </div>
+        {/* </nav> */}
+    </nav>
   )
 }
 

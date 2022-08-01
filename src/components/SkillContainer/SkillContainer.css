@@ -1,19 +1,19 @@
 .skill-container {
     margin: 0 auto;
-    padding: 0.5rem 1rem;
+    padding: 3rem;
     max-width: 625px;
 }
 
 .skill-container .skills {
-    /* margin: 0 auto; */
     display: flex;
+    flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .skill-container .skills h2 {
     /* text-align: right; */
-    min-width: 160px;
+    min-width: 120px;
     margin-right: 2rem;
 }
 

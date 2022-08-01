@@ -8,13 +8,13 @@ const ProjectCard = ({project}) => {
         <div>
             {/* <a className="card-hover" href={project.githubLink}><img src={githubLogo}/></a> */}
             <h2>{project.name}</h2>
-            <h6>
+            <h5>
                 {
                     project.stacks.map(stack => {
                         return <span>{stack}</span>
                     })
                 }
-            </h6>
+            </h5>
             <p className="description">{project.description}</p>
         </div>
     </a>

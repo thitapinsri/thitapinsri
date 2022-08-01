@@ -2,10 +2,11 @@
     height: 90vh;
     max-width: 1280px;
     margin: 0 auto;
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
 }
 .notfound h1 {
-    padding: 0 2rem;
+    text-align: center;
+    padding: 2rem;
     box-sizing: border-box;
-    font-size: 3rem;;
+    font-size: 10rem;
 }

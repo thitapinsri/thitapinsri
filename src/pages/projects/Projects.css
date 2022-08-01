@@ -1,11 +1,15 @@
 .projects {
     min-height: 89vh;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: 0 auto;
-    padding-top: 4rem;
+    position: relative;
+    top: 72px;
+    background-color: #ff5d5d;
+    /* color: white; */
 }
 .projects h1 {
-    padding: 0 2rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
     box-sizing: border-box;
     font-size: 3rem;;
 }
