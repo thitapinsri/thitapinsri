@@ -9,6 +9,8 @@ import linkedinLogo from '/public/assets/linkedinLogo.png'
 import emailLogo from "/public/assets/emailLogo.png"
 import bannerGif from '/public/assets/droll-project-launch.gif';
 import Footer from '../../components/Footer/Footer';
+import skillGif from '/assets/droll-statistic.gif'
+import contactGif from '/public/assets/droll-mobility.gif'
 
 const Home = () => {
   return (
@@ -45,7 +47,7 @@ const Home = () => {
           </div>
           <div className='container'>
           <div >
-            <img src={'/assets/droll-statistic.gif'} />
+            <img src={skillGif} />
           </div>
           </div>
         </div>
@@ -75,7 +77,7 @@ const Home = () => {
           </a>
         </div>
         <div className='img'>
-          <img src={'/public/assets/droll-mobility.gif'}/>
+          <img src={contactGif}/>
         </div>
       </section>
       <Footer />
