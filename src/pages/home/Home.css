@@ -5,7 +5,6 @@ section {
 #banner {
     height: 91vh;
     width: 100hh;
-    /* max-width: 1440px; */
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -39,7 +38,8 @@ section {
     margin: 2.5rem 0;
 }
 
-#banner .button {
+#banner span {
+    display: flex;;
 }
 
 #banner .image {
@@ -88,14 +88,14 @@ section {
     width: 200%;
     font-size: 5rem;
     color: white;
-    animation: animate 40s linear infinite;
+    animation: animate 20s linear infinite;
     /* transform: translate(0, -50%); */
-    animation-delay: -20s;
+    animation-delay: -10s;
 }
 
 #projects .project-head:nth-child(2) {
-    animation: animate2 40s linear infinite;
-    animation-delay: -20s;
+    animation: animate2 20s linear infinite;
+    animation-delay: -10s;
 }
 
 @keyframes animate {
@@ -237,4 +237,113 @@ section {
 
 #contact .img img {
     width: 100%;
+}
+
+
+@media (max-width:1024px) {
+    #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 100vh;
+        /* margin-top: 4rem; */
+        width: 100%;
+        /* position: relative; */
+        /* top: 71px; */
+    }
+    
+    #banner .text, #banner .image{
+        width: 100%;
+        border: none;
+        
+    }
+    
+    #banner .text{
+        margin-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    #banner .image{
+        padding-top: 4rem;
+        border-bottom: 3px solid black;
+    }
+
+    #banner .image img {
+     width: 400px;
+    }
+
+    #skills {
+        flex-direction: column;
+    }
+
+    #skills .img, #skills .sk {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #skills .img {
+        border-bottom: 3px solid black;
+    }
+
+    #skills .img img{
+        max-width: 300px;
+    }
+
+    #contact {
+        flex-direction: column;
+        
+        min-height: 75vh;
+    }
+
+    #contact .img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #banner {
+        margin-top: 2rem;
+        /* align-items: center; */
+        justify-content: center;
+        /* width: 120%; */
+        /* flex-direction: column; */
+    }
+    #banner .text {
+        margin: 0;
+        /* padding: 0; */
+    }
+
+    #banner .text p {
+        margin: 1.5rem;
+    }
+
+    #banner .text h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+
+    #banner .text p {
+        font-size: 1.25rem;
+    }
+
+
+    #banner .image {
+        max-height: 380px;
+        /* width: 120%; */
+    }
+    #banner .image img {
+        width: 300px;
+        /* z-index: 20; */
+    }
+
+    #projects {
+
+    }
+}
+
+@media (max-height: 700px) {
+    #banner {
+        margin-top: 4.5rem;
+        padding-bottom: 3rem;
+    }
 }

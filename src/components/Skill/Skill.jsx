@@ -5,7 +5,7 @@ const Skill = ({stack}) => {
     <div className='skill'>
         {
             stack.map(skill => {
-                return <img src={skill.img} alt={skill.name} />
+                return <img src={skill.img} alt={skill.name}  className='image'/>
             })
         }
     </div>

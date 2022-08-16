@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
@@ -20,7 +19,6 @@ const App = () => {
           <Route path="resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   )

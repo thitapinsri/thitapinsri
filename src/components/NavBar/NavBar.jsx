@@ -2,24 +2,34 @@ import './NavBar.css'
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {
+
+  const removeActive = () => {
+    document.querySelector('.hamburger').classList.remove('active')
+    document.querySelector('.path-container').classList.remove('active')
+  }
+
   return (
     <nav className="navbar">
-        {/* <nav> */}
           <div className='logo'>
             <Link to="/">THITA PINSRI</Link>
           </div>
           <div className="path-container">
             <div>
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={removeActive}>About</Link>
             </div>
             <div>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" onClick={removeActive}>Projects</Link>
             </div>
-            {/* <div> */}
-              <Link to="/resume"><div className='resumelink'>Resume</div></Link>
-            {/* </div> */}
+              <Link to="/resume" onClick={removeActive}><div className='resumelink'>Resume</div></Link>
           </div>
-        {/* </nav> */}
+          <div className='hamburger' onClick={() => {
+            document.querySelector('.hamburger').classList.toggle('active')
+            document.querySelector('.path-container').classList.toggle('active')
+          }}>
+            <span className='bar'></span>
+            <span className='bar'></span>
+            <span className='bar'></span>
+          </div>
     </nav>
   )
 }
