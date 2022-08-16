@@ -22,7 +22,7 @@ const projects = [
         name: 'Find Your Hat',
         stacks: ['JavaScript'],
         description: 'A simple maze-like CLI game using Breadth First Search algorithm.',
-        githubLink: '',
+        githubLink: 'https://github.com/thitapinsri/find-your-hat',
         link: '',
         img: 'src/assets/find-your-hat.png'
     },

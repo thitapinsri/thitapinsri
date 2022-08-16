@@ -6,7 +6,7 @@ const Resume = () => {
     <div className="resume">
       <div>
       <h1>Resume</h1>
-      <a href='/src/assets/Thita-resume.pdf' className='button' download>
+      <a href='https://drive.google.com/file/d/1YSDpqMO0QlpAw4wse0HR8IKgHYm_IDYG/view' className='button' target="_blank">
         Download Resume
       </a>
       </div>

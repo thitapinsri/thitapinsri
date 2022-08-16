@@ -3,6 +3,7 @@
     top: 72px;
     margin: 0 auto;
     background-color: #ffe838;
+    min-height: 100vh;
 }
 
 .resume div {
@@ -21,6 +22,7 @@
 
 .resume .button {
     margin-right: 0;
+    text-align: center;
 }
 
 .resume img {
@@ -29,3 +31,5 @@
     box-sizing: border-box;
 
 }
+
+

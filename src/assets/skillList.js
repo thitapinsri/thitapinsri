@@ -48,6 +48,10 @@ const skillList = [
         type: 'Database',
         stacks: [
             { 
+                name: 'MongoDB',
+                img: 'src/assets/skills/mongodb.svg' 
+            },
+            { 
                 name: 'SQLite',
                 img: 'src/assets/skills/sqlite.svg'
              },
@@ -55,20 +59,16 @@ const skillList = [
                 name: 'PostgreSQL',
                 img: 'src/assets/skills/postgresql.svg'
              },
-            { 
-                name: 'MongoDB',
-                img: 'src/assets/skills/mongodb.svg' 
-            }
         ]
     },
-    {
-        type: 'Cloud',
-        stacks: [
-            { name: 'Azure',
-            img: 'src/assets/skills/azure.svg' 
-        }
-        ]
-    },
+    // {
+    //     type: 'Cloud',
+    //     stacks: [
+    //         { name: 'Azure',
+    //         img: 'src/assets/skills/azure.svg' 
+    //     }
+    //     ]
+    // },
     {
         type: 'Others',
         stacks: [
