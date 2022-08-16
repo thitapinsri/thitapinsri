@@ -4,27 +4,27 @@ const skillList = [
         stacks: [
             {
                 name: 'HTML',
-                img: 'src/assets/skills/html.svg'
+                img: '/assets/skills/html.svg'
             },
             { 
                 name: 'CSS',
-                img: 'src/assets/skills/css.svg'
+                img: '/assets/skills/css.svg'
             },
             { 
                 name: 'JavaScript',
-                img: 'src/assets/skills/javascript.svg'
+                img: '/assets/skills/javascript.svg'
              },
             { 
                 name: 'ReactJS',
-                img: 'src/assets/skills/react.svg',
+                img: '/assets/skills/react.svg',
              },
             { 
                 name: 'Bootstrap',
-                img: 'src/assets/skills/bootstrap.svg'
+                img: '/assets/skills/bootstrap.svg'
              },
             // { 
             //     name: 'Tailwind CSS',
-            //     img: 'src/assets/skills/tailwind.svg'
+            //     img: '/assets/skills/tailwind.svg'
             //  },
         ]
    
@@ -34,11 +34,11 @@ const skillList = [
         stacks: [
             { 
                 name: 'NodeJS',
-                img: 'src/assets/skills/node.svg'
+                img: '/assets/skills/node.svg'
              },
             { 
                 name: 'ExpressJS',
-                img: 'src/assets/skills/express.svg'
+                img: '/assets/skills/express.svg'
              },
 
         ]
@@ -49,15 +49,15 @@ const skillList = [
         stacks: [
             { 
                 name: 'MongoDB',
-                img: 'src/assets/skills/mongodb.svg' 
+                img: '/assets/skills/mongodb.svg' 
             },
             { 
                 name: 'SQLite',
-                img: 'src/assets/skills/sqlite.svg'
+                img: '/assets/skills/sqlite.svg'
              },
             { 
                 name: 'PostgreSQL',
-                img: 'src/assets/skills/postgresql.svg'
+                img: '/assets/skills/postgresql.svg'
              },
         ]
     },
@@ -65,7 +65,7 @@ const skillList = [
     //     type: 'Cloud',
     //     stacks: [
     //         { name: 'Azure',
-    //         img: 'src/assets/skills/azure.svg' 
+    //         img: '/assets/skills/azure.svg' 
     //     }
     //     ]
     // },
@@ -74,24 +74,24 @@ const skillList = [
         stacks: [
             {
                 name: 'Git',
-                img: 'src/assets/skills/git.svg'
+                img: '/assets/skills/git.svg'
             },
             {
                 name: 'Github',
-                img: 'src/assets/skills/github.svg' 
+                img: '/assets/skills/github.svg' 
             },
             {
                 name: 'Figma',
-                img: 'src/assets/skills/figma.svg' 
+                img: '/assets/skills/figma.svg' 
             },
             {
 
                 name: 'Python',
-                img: 'src/assets/skills/python.svg' 
+                img: '/assets/skills/python.svg' 
             },
             { 
                 name: 'R',
-                img: 'src/assets/skills/r.svg' 
+                img: '/assets/skills/r.svg' 
             }
         ]
     },

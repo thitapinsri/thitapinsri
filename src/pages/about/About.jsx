@@ -1,5 +1,5 @@
 import './About.css'
-import profile from '../../assets/profile2.jpg'
+import profile from '../../../public/assets/profile2.jpg'
 
 const text1 = `I’m Thita Pinsri, a software developer based in Bangkok with backgrounds in Film and Advertising.`
 const text2 = `I started on a clear academic path studying the arts of media and communications, working part-time as a director of photography and earning my BA degree through lots of film and advertising projects. I also spent time as a freelance personal photographer delicately capturing clients’ important moments at many university graduation events.`

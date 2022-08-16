@@ -1,6 +1,7 @@
 .project-card-container {
     margin: auto;
     /* max-width: 800px; */
+    box-sizing: content-box;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

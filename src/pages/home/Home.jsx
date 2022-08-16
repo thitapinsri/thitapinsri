@@ -1,13 +1,13 @@
 import './Home.css'
 import Button from '../../components/Button/Button'
-import projects from '../../assets/projects'
+import projects from '/public/assets/projects'
 import ProjectCardContainer from '../../components/ProjectCardContainer/ProjectCardContainer'
-import skillList from '../../assets/skillList'
+import skillList from '/public/assets/skillList'
 import SkillContainer from '../../components/SkillContainer/SkillContainer'
-import githubLogo from '../../assets/githubLogo.png'
-import linkedinLogo from '../../assets/linkedinLogo.png'
-import emailLogo from "../../assets/emailLogo.png"
-import bannerGif from '../../assets/droll-project-launch.gif';
+import githubLogo from '/public/assets/githubLogo.png'
+import linkedinLogo from '/public/assets/linkedinLogo.png'
+import emailLogo from "/public/assets/emailLogo.png"
+import bannerGif from '/public/assets/droll-project-launch.gif';
 import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
 
       <section id="projects"> 
       <div className='project-head'>
-        <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
+        <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
       </div>
         <ProjectCardContainer projects={projects} />
         <Button buttonName={'See More'} buttonPath={'/projects'} className="button"/>
@@ -45,7 +45,7 @@ const Home = () => {
           </div>
           <div className='container'>
           <div >
-            <img src={'src/assets/droll-statistic.gif'} />
+            <img src={'/assets/droll-statistic.gif'} />
           </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ const Home = () => {
           </a>
         </div>
         <div className='img'>
-          <img src={'src/assets/droll-mobility.gif'}/>
+          <img src={'/public/assets/droll-mobility.gif'}/>
         </div>
       </section>
       <Footer />

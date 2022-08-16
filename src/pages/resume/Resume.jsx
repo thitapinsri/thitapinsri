@@ -1,5 +1,5 @@
 import './Resume.css';
-import resume from "../../assets/mockresume.png";
+import resume from "../../../public/assets/mockresume.png";
 
 const Resume = () => {
   return (

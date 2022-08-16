@@ -1,5 +1,5 @@
 import './Projects.css'
-import projects from '../../assets/projects'
+import projects from '../../../public/assets/projects'
 import ProjectCardContainer from '../../components/ProjectCardContainer/ProjectCardContainer'
 
 const Projects = () => {

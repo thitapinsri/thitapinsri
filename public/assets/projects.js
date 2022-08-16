@@ -6,7 +6,7 @@ const projects = [
         description: 'An exercise tracking website analyzing user\'s workout journey to let them log their activities and share with other users in the community.',
         githubLink: '',
         link: '',
-        img: 'src/assets/exercise-tracker.png'
+        img: '/assets/exercise-tracker.png'
     },
     {
         id: 1,
@@ -15,7 +15,7 @@ const projects = [
         description: 'A react web application using Spotify API for users to search, create a custom playlist, then save it to their Spotify account.',
         githubLink: 'https://github.com/thitapinsri/jamming',
         link: 'https://jammingeiei.surge.sh/',
-        img: 'src/assets/jamming.png'
+        img: '/assets/jamming.png'
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ const projects = [
         description: 'A simple maze-like CLI game using Breadth First Search algorithm.',
         githubLink: 'https://github.com/thitapinsri/find-your-hat',
         link: '',
-        img: 'src/assets/find-your-hat.png'
+        img: '/assets/find-your-hat.png'
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const projects = [
         description: 'A responsive website for new school landing page made with HTML/CSS, and Flexbox.',
         githubLink: 'https://github.com/thitapinsri/colmar',
         link: '',
-        img: 'src/assets/colmar.png'
+        img: '/assets/colmar.png'
     },
 
 ]

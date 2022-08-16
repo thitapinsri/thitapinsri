@@ -1,5 +1,5 @@
 import './ProjectCard.css'
-import githubLogo from '../../assets/githubLogo.png'
+import githubLogo from '../../../public/assets/githubLogo.png'
 
 const ProjectCard = ({project}) => {
   return (
