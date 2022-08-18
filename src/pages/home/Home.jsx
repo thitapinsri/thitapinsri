@@ -22,7 +22,7 @@ const Home = () => {
             with an academic background in Film and Advertising</p>
             <span className='button-container'>
               <Button buttonName={'Projects'} buttonPath={'/projects'}/>
-              <Button buttonName={'Resume'} buttonPath={'#projects'}/>
+              <Button buttonName={'Resume'} buttonPath={'/resume'}/>
             </span>
           </div>
 
