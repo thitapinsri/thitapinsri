@@ -1,54 +1,101 @@
 .about {
-    min-height: 92.5vh;
-    margin: 0 auto;
-    position: relative;
-    top: 72px;
-    background-color: #d9a4ff;
-    /* background-color: black; */
-    /* color: white; */
-    padding: 3rem 2rem 2rem;
-    border-bottom: 3px solid black;
+  min-height: 92.5vh;
+  margin: 0 auto;
+  position: relative;
+  top: 72px;
+  background-color: #d9a4ff;
+  /* background-color: black; */
+  /* color: white; */
+  padding: 3rem 2rem 2rem;
+  border-bottom: 3px solid black;
 }
 .about h1 {
-    box-sizing: border-box;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+  box-sizing: border-box;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .about .container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2rem;
 }
 
 .about .container .text {
-    padding: 0 3rem;
-    box-sizing: border-box;
-    font-size: 1.2rem;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
-
 .about img {
-    margin: auto;
-    width: 300px;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 3px solid black;
+  margin: auto;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+.about .education {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  /* margin-right: 4rem; */
+  /* max-width: 960px; */
+}
+.about .education .education-card {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 5rem 1rem 2rem;
+  border: 2px solid black;
+  margin: 2rem;
+  min-height: 200px;
+  width: 450px;
+}
+.about .education img {
+  margin: 2rem;
+  border: none;
+  border-radius: 0;
+  width: 64px;
+  height: max-content;
+  padding-right: 0.3rem;
+  /* border-right: 2px solid black ; */
+}
+
+.about .education .gen {
+  width: 100px;
+}
+
+.about-container {
+  max-width: 1280px;
+  margin: auto;
 }
 
 @media (max-width: 960px) {
-    .about .container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
+  .about .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 
-    .about img {
-        margin: 2rem auto;
-        width: 225px;
-    }
-    .about .container .text {
-        padding: 0;
-    }
-} 
+  .about img {
+    margin: 2rem auto;
+    width: 225px;
+  }
+  .about .container .text {
+    padding: 0;
+  }
+
+  .about .education-card {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 1111px) {
+  .about .education {
+    flex-direction: column;
+  }
+}

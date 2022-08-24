@@ -3,10 +3,18 @@
     max-width: 1280px;
     margin: 0 auto;
     /* padding-top: 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .notfound h1 {
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
     box-sizing: border-box;
     font-size: 10rem;
+}
+
+.notfound h2 {
+    padding-bottom: 1rem;
 }

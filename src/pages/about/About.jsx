@@ -9,10 +9,11 @@ const text4 = `Currently, I’m seeking a software Developer role in tech-relate
 const About = () => {
   return (
     <div className='about'>
+      <div className='about-container'>
         <h1>About Me</h1>
         <div className="container">
           <div className="img">
-            <img src={profile}/>
+            <img src={profile} />
           </div>
           <div className="text">
             <p>{text1}</p>
@@ -20,6 +21,27 @@ const About = () => {
             <p>{text3}</p>
             <p>{text4}</p>
           </div>
+        </div>
+
+        <h1 style={{ paddingTop: '3rem' }}>Education</h1>
+        <div className="education">
+          <div className="education-card">
+            <img src='/assets/genlogo.png' className='gen' />
+            <div>
+              <h2>Generation Thailand</h2>
+              <h3>Software Developer Bootcamp</h3>
+              <h4>2022</h4>
+            </div>
+          </div>
+          <div className="education-card">
+            <img src='/assets/chulalogo.png' />
+            <div>
+              <h2>Chulalongkorn University</h2>
+              <h3>BA in Film and Photography</h3>
+              <h4>2017 - 2021</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
