@@ -5,8 +5,11 @@ import ProjectCardContainer from '../../components/ProjectCardContainer/ProjectC
 const Projects = () => {
   return (
     <div className="projects">
+      <div className="project-container">
       <h1>Projects</h1>
       <ProjectCardContainer projects={[...projects]} />
+
+      </div>
     </div>
   )
 }

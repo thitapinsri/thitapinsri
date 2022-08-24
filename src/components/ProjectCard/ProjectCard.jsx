@@ -3,7 +3,7 @@ import githubLogo from '../../../public/assets/githubLogo.png'
 
 const ProjectCard = ({project}) => {
   return (
-    <a className='project-card' href={project.githubLink} target="_blank">
+    <a className='project-card' href={project.link || project.githubLink} target="_blank">
             <img src={project.img}/>
         <div>
             {/* <a className="card-hover" href={project.githubLink}><img src={githubLogo}/></a> */}

@@ -18,8 +18,10 @@ const Home = () => {
       <section id="banner">
           <div className='text'>
             <h1>Thita Pinsri</h1>
-            <p>Bangkok-based full-stack developer<br />
-            with an academic background in Film and Advertising</p>
+            <p>Cinematographer turned to Software Developer
+              <br />
+              I visualize the concept into real life solution
+            </p>
             <span className='button-container'>
               <Button buttonName={'Projects'} buttonPath={'/projects'}/>
               <Button buttonName={'Resume'} buttonPath={'/resume'}/>
@@ -34,7 +36,7 @@ const Home = () => {
 
       <section id="projects"> 
       <div className='project-head'>
-        <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
+        <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
       </div>
         <ProjectCardContainer projects={projects} />
         <Button buttonName={'See More'} buttonPath={'/projects'} className="button"/>
@@ -66,7 +68,7 @@ const Home = () => {
           <h1>Let's get in touch!</h1>
           <p>Thita Pinsri</p>
           <p>Bangkok, Thailand</p>
-          <a href="#">
+          <a href="mailto: thitapinsri@gmail.com">
             <img src={emailLogo} />
           </a>
           <a href="https://www.linkedin.com/in/thitapinsri/">
