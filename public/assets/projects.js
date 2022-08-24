@@ -4,9 +4,9 @@ const projects = [
         name: 'Extrack',
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
         description: 'An exercise tracking website analyzing user\'s workout journey to let them log their activities and share with other users in the community.',
-        githubLink: '',
-        link: '',
-        img: '/assets/exercise-tracker.png'
+        githubLink: 'https://github.com/ParinchatJ/Extract_frontend',
+        link: 'https://extracts.vercel.app/',
+        img: '/assets/extrack.png'
     },
     {
         id: 1,
@@ -14,7 +14,7 @@ const projects = [
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
         description: 'A react web application using Spotify API for users to search, create a custom playlist, then save it to their Spotify account.',
         githubLink: 'https://github.com/thitapinsri/jamming',
-        link: 'https://jammingeiei.surge.sh/',
+        // link: 'https://jammingeiei.surge.sh/',
         img: '/assets/jamming.png'
     },
     {

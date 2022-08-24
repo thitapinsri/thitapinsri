@@ -9,7 +9,9 @@ const Footer = () => {
               Thita Pinsri
               </p>
               <p >
-              thitapinsri@gmail.com
+                <a href="mailto: thitapinsri@gmail.com">
+                  thitapinsri@gmail.com
+                </a>
               </p>
         </div>
           <p className="credit">
