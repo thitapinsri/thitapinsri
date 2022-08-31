@@ -1,11 +1,11 @@
 const projects = [
     {
         id: 0,
-        name: 'Extrack',
+        name: 'Extracks',
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
         description: 'An exercise tracking website analyzing user\'s workout journey to let them log their activities and share with other users in the community.',
         githubLink: 'https://github.com/ParinchatJ/Extract_frontend',
-        link: 'https://extracts.vercel.app/',
+        link: 'https://extracks.vercel.app/',
         img: '/assets/extrack.png'
     },
     {
@@ -32,7 +32,7 @@ const projects = [
         stacks: ['HTML/CSS', 'Bootstrap', 'ReactJS', 'NodeJS'],
         description: 'A responsive website for new school landing page made with HTML/CSS, and Flexbox.',
         githubLink: 'https://github.com/thitapinsri/colmar',
-        link: '',
+        link: 'https://htmlpreview.github.io/?https://github.com/thitapinsri/colmar/blob/main/index.html',
         img: '/assets/colmar.png'
     },
 
