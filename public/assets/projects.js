@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 0,
-        name: 'Extrack',
+        name: 'Extracks',
         stacks: ['MongoDB', 'ExpressJS', 'ReactJS', 'NodeJS'],
         description: 'An exercise tracking website analyzing user\'s workout journey to let them log their activities and share with other users in the community.',
         githubLink: 'https://github.com/ParinchatJ/Extract_frontend',
