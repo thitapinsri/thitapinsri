@@ -35,11 +35,14 @@ const Home = () => {
       </section>
 
       <section id="projects"> 
+
       <div className='project-head'>
         <h3>PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</h3>
       </div>
+      <div className='projects-container'>
         <ProjectCardContainer projects={projects} />
         <Button buttonName={'See More'} buttonPath={'/projects'} className="button"/>
+      </div>
       </section>
 
       <section id="skills">

@@ -98,6 +98,11 @@ section {
     animation-delay: -10s;
 }
 
+#projects .projects-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
 @keyframes animate {
     0% {
         transform: translateX(0%);
