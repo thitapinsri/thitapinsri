@@ -29,7 +29,7 @@ const projects = [
     {
         id: 3,
         name: 'Colmar Academy',
-        stacks: ['HTML/CSS', 'Bootstrap', 'ReactJS', 'NodeJS'],
+        stacks: ['HTML/CSS', 'ReactJS', 'NodeJS'],
         description: 'A responsive website for new school landing page made with HTML/CSS, and Flexbox.',
         githubLink: 'https://github.com/thitapinsri/colmar',
         link: 'https://htmlpreview.github.io/?https://github.com/thitapinsri/colmar/blob/main/index.html',
