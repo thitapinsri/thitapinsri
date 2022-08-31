@@ -1,4 +1,4 @@
-# Hello world, I'm Thita Pinsri (Tarn) !
+# Hello world, I'm Thita (Tarn) Pinsri !
 
 A former cinematograher turned to Software Developer :)
 
