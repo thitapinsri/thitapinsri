@@ -21,9 +21,9 @@ const projects = [
         id: 2,
         name: 'Find Your Hat',
         stacks: ['JavaScript'],
-        description: 'A simple maze-like CLI game using Breadth First Search algorithm.',
+        description: 'A simple maze-like CLI game using JavaScript class (OOP)',
         githubLink: 'https://github.com/thitapinsri/find-your-hat',
-        link: '',
+        link: 'https://replit.com/@ThitaPinsri/find-your-hat',
         img: '/assets/find-your-hat.png'
     },
     {

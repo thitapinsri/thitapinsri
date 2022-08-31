@@ -206,9 +206,9 @@ section {
     filter: invert(1);
 }
 
-#contact .info img:hover {
-    /* filter: invert(0.5); */
-}
+/* #contact .info img:hover {
+    filter: invert(0.5);
+} */
 
 #contact h1 {
     font-size: 4rem;
@@ -334,10 +334,6 @@ section {
     #banner .image img {
         width: 300px;
         /* z-index: 20; */
-    }
-
-    #projects {
-
     }
 }
 
