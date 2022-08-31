@@ -185,11 +185,6 @@ section {
     display: block;
 }
 
-#skills .img img {
-    /* width: 100%; */
-    /* box-sizing: border-box; */
-}
-
 /* contact */
 #contact {
     min-height: 50vh;

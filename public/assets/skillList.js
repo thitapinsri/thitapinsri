@@ -55,10 +55,10 @@ const skillList = [
                 name: 'SQLite',
                 img: '/assets/skills/sqlite.svg'
              },
-            { 
-                name: 'PostgreSQL',
-                img: '/assets/skills/postgresql.svg'
-             },
+            // { 
+            //     name: 'PostgreSQL',
+            //     img: '/assets/skills/postgresql.svg'
+            //  },
         ]
     },
     // {
@@ -84,15 +84,15 @@ const skillList = [
                 name: 'Figma',
                 img: '/assets/skills/figma.svg' 
             },
+            { 
+                name: 'R',
+                img: '/assets/skills/r.svg' 
+            },
             {
 
                 name: 'Python',
                 img: '/assets/skills/python.svg' 
             },
-            { 
-                name: 'R',
-                img: '/assets/skills/r.svg' 
-            }
         ]
     },
 ]

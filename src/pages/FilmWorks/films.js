@@ -71,25 +71,6 @@ const allFilms = [
     ],
   },
   {
-    year: 2019,
-    films: [
-      {
-        id: 2,
-        title: "A Girl Who Can't Live",
-        type: "Short Film",
-        duty: ['Directed', 'Cinematographed', 'Colored'],
-        img: 'https://mir-cdn.behance.net/v1/rendition/project_modules/source/e4ef69117977623.60801d59d30de.png'
-      },
-      {
-        id: 3,
-        title: "ซามูไร และสุราล้างแผล",
-        type: "Short Film",
-        duty: ['Cinematographed'],
-        img: 'https://mir-cdn.behance.net/v1/rendition/project_modules/source/bef155117977623.60801d59d39a6.png'
-      },
-    ],
-  },
-  {
     year: 2017,
     films: [
       {

@@ -18,7 +18,7 @@ const Home = () => {
       <section id="banner">
           <div className='text'>
             <h1>Thita Pinsri</h1>
-            <p>Cinematographer turned to Software Developer
+            <p>Filmmaker turned to Software Developer
               <br />
               I visualize the concept into real life solution
             </p>
