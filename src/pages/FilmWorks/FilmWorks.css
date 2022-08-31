@@ -1,0 +1,40 @@
+.film-works-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.film-works {
+    background-color: black;
+    min-height: 92.5vh;
+    position: relative;
+    top: 72px;
+    color: white;
+    padding: 3rem 2rem 5rem;
+    border-bottom: 3px solid black;
+  }
+
+  .film-works h1 {
+    box-sizing: border-box;
+    font-size: 3rem;
+    margin: 5rem 0;
+  }
+
+  .film-works .title {
+    margin-top: 0;
+  }
+
+  .film-works h2, .film-works h3 {
+    font-family: 'DM Sans', 'Kanit', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .film-works img {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .film-works span {
+    margin-right: 0.5rem;
+  }

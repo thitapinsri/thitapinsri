@@ -20,6 +20,9 @@ const NavBar = () => {
             <div>
               <Link to="/projects" onClick={removeActive}>Projects</Link>
             </div>
+            <div>
+              <Link to="/films" onClick={removeActive}>Film Works</Link>
+            </div>
               <Link to="/resume" onClick={removeActive}><div className='resumelink'>Resume</div></Link>
           </div>
           <div className='hamburger' onClick={() => {
